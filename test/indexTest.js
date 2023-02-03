@@ -1,6 +1,4 @@
-require ( './helpers.js' );
-
-require( './helpers' );
+require( './setup' );
 const chai = require( 'chai' );
 const spies = require( 'chai-spies' );
 const nock = require( 'nock' );
